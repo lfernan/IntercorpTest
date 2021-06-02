@@ -3,7 +3,7 @@ Test para la entrevista de Intercorp Retail
 
 gradlew clean build
 
-Se adjunta la collection de postman
+Se adjunta la collection de postman en el proyecto
 
 # Elasctic Beanstalk URL
 http://springbootintercorp-env.eba-n9tsms5j.us-east-2.elasticbeanstalk.com/
