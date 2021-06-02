@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "2231ffa7-08ad-425c-b3a8-bef5aec3df5e",
+		"name": "Intercorp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "creacliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Nombre 1\",\r\n    \"lastname\":\"Apellido 1\",\r\n    \"dateOfBirth\":\"1997-07-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{domain}}/creacliente",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"creacliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kpideclientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{domain}}/kpideclientes",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"kpideclientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listclientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{domain}}/listclientes",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"listclientes"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "domain",
+			"value": "http://localhost:5000/api"
+		}
+	]
+}
