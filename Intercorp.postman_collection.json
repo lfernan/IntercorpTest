@@ -89,7 +89,7 @@
 	"variable": [
 		{
 			"key": "domain",
-			"value": "http://localhost:5000/api"
+			"value": "http://springbootintercorp-env.eba-n9tsms5j.us-east-2.elasticbeanstalk.com/api"
 		}
 	]
 }
